@@ -7,15 +7,17 @@
 }
 
 .dropdown-menu {
-    margin-top: 18%;
+    background-color: #212429;
+    margin-top: 2%;
 }
 
-.navbar-toggler-icon {
-    fill: white;
+.dropdown-item {
+    color: white;
 }
 
 @media (max-width: 991px) {
     .dropdown-menu {
-      margin-top: 0;
+      margin-top: 0.3%;
     }
-  }
+}
+
