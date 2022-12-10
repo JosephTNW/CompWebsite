@@ -36,3 +36,46 @@
 	height: 650px;
 	width: 1536px;
 }
+
+.bg {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.text {
+    position: absolute;
+}
+
+.arrow {
+    height: 5vh;
+    margin-top: 80vh;
+}
+
+.is {
+    background-image: url(/assets/IS.JPG);
+}
+
+.it {
+    background-image: url(/assets/IT.JPG);
+}
+
+.dkv {
+    background-image: url(/assets/DKV.JPG);
+}
+
+.id {
+    background-image: url(/assets/ID.JPG);
+}
