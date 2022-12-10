@@ -4,11 +4,22 @@
 
 .dropdown:hover .dropdown-menu {
     display: block;
+    pointer-events: auto;
 }
 
 .dropdown-menu {
     background-color: #212429;
     margin-top: 2%;
+}
+
+.dropdown-toggle{
+    pointer-events: none;
+}
+
+.nav-item.active {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
 }
 
 .dropdown-item {
