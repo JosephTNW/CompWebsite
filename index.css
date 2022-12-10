@@ -1,4 +1,21 @@
-.logo {
-    width: 10%;
-    height: 10%;
+.bg-nav {
+    background-color: #212429;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 18%;
+}
+
+.navbar-toggler-icon {
+    fill: white;
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu {
+      margin-top: 0;
+    }
+  }
