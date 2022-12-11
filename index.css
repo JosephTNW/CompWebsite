@@ -64,6 +64,10 @@
     margin-top: 80vh;
 }
 
+.bg2 {
+    background-color: #212429;
+}
+
 .is {
     background-image: url(/assets/IS.JPG);
 }
