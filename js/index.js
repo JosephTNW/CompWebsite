@@ -9,6 +9,12 @@ $(document).ready(function(){
         }, 0);
         $(".desc").fadeIn(500);
         $(".foto-title").fadeIn(750);
-        $(".lecturer").fadeIn(1000)
+        $(".lecturer").fadeIn(1000);
+    })
+
+    $(".contact").click(function() {
+        $(".contacts").load("contact.html", function(){
+            $(".contacts").slideDown();
+        });
     })
 })
