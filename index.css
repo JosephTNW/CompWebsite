@@ -79,3 +79,10 @@
 .id {
     background-image: url(/assets/ID.JPG);
 }
+
+table, th {
+    border: 1px solid black;
+    width: 530px;
+    height: 530px;
+    margin: 30px;
+}
