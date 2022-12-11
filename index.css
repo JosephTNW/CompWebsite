@@ -60,10 +60,37 @@
     position: absolute;
 }
 
+body::-webkit-scrollbar {
+    
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
 .arrow {
     display: none;
     height: 5vh;
     margin-top: 80vh;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.desc {
+    display: none;
+}
+
+.foto-title {
+    display: none;
+}
+
+.lecturer {
+    display: none;
 }
 
 .bg2 {

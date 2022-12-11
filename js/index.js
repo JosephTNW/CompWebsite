@@ -3,6 +3,12 @@ $(document).ready(function(){
     $(".arrow").fadeIn(1000);
 
     $(".arrow").click(function(){
-        $(".bg2").fadeIn(1000)
+        $(".bg2").fadeIn(100);
+        $('html,body').animate({
+            scrollTop: $(".bg2").offset().top
+        }, 0);
+        $(".desc").fadeIn(500);
+        $(".foto-title").fadeIn(750);
+        $(".lecturer").fadeIn(1000)
     })
 })
