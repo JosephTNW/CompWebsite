@@ -7,9 +7,6 @@ $(document).ready(function(){
         $('html,body').animate({
             scrollTop: $(".bg2").offset().top
         }, 0);
-        $(".desc").fadeIn(500);
-        $(".foto-title").fadeIn(750);
-        $(".lecturer").fadeIn(1000);
     })
 
     $(".contact").click(function() {
@@ -18,3 +15,13 @@ $(document).ready(function(){
         });
     })
 })
+
+var nav = document.querySelector('nav');
+
+window.addEventListener('scroll', function(){
+    if(this.window.pageYOffset > 100) {
+        nav.classList.add('bg-nav', 'shadow');
+    }else {
+        nav.classList.remove('bg-nav', 'shadow');
+    }
+});
