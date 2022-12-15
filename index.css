@@ -236,6 +236,36 @@ scrollbar-width: none;  /* Firefox */
     height: 94vh;
 }
 
+.bordervmo{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.imgrad{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+}
+.lcname{ 
+    margin-top: 15px; 
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+.p{
+    color: #64646d;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    margin: auto;
+}
+
 .bg-footer{
     background-color: #2e3238;
 }
