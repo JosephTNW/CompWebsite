@@ -108,11 +108,19 @@
     }
 }
 
+.vision {
+    margin-top: 1.7vh;
+}
+
+.mission {
+    margin-left: -2vh;
+}
+
 .text-reset {
     text-decoration: none;
 }
 
-@media (max-width: 768){
+@media (max-width: 768px){
     #contact {
         display: none;
     }
