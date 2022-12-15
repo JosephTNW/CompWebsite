@@ -79,8 +79,6 @@
     margin-top: 15%;
 }
 
-
-
 .dropdown-color {
     background-color: transparent;
     border: none;
@@ -107,6 +105,16 @@
     .nav-item:hover .nav-link {
         transform: scaleZ(1.05);
         transition: all 0.3s ease-in-out;
+    }
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+@media (max-width: 768){
+    #contact {
+        display: none;
     }
 }
 
@@ -150,6 +158,10 @@ scrollbar-width: none;  /* Firefox */
 
 .icon {
     text-decoration: none;
+}
+
+.link-light:hover .bi {
+    scale: 1.2;
 }
 
 .btn-change{
@@ -222,6 +234,10 @@ scrollbar-width: none;  /* Firefox */
     margin-top: 3vh;
     margin-bottom: 3vh;
     height: 94vh;
+}
+
+.bg-footer{
+    background-color: #2e3238;
 }
 
 #president, #university {
