@@ -17,11 +17,13 @@ $(document).ready(function(){
 })
 
 var nav = document.querySelector('nav');
-
+var dropdownMenu = document.querySelector('.dropdown-menu');
 window.addEventListener('scroll', function(){
     if(this.window.pageYOffset > 100) {
         nav.classList.add('bg-nav', 'shadow');
+        dropdownMenu.classList.remove('dropdown-color');
     }else {
         nav.classList.remove('bg-nav', 'shadow');
+        dropdownMenu.classList.add('dropdown-color');
     }
 });

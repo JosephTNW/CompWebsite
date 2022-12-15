@@ -14,13 +14,55 @@
     filter: drop-shadow(0px -40px 100px rgba(210, 210, 210, 0.27));
 }
 
-.nav-item {
-    padding-top: 7%;
-    padding-bottom: 7%;
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.lecturer {
+    width: 100%;
+    height: auto;
+}
+
+#changing-image, #change-text {
+    transition: opacity 1s;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.alumni {
+    filter: contrast(85%);
+    filter: brightness(80%);
+    width: 40vh;
+    height: 40vh;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width {
+    flex: 2 0 0;
+    padding-right: 2vw;
+}
+
+
+.adv{
+    font-size: 3vh;
+}
+
+.contact-shadow {
+    filter: drop-shadow(0px -40px 100px rgba(210, 210, 210, 0.27));
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
+    opacity: 1;
     pointer-events: auto; 
 }
 
@@ -30,8 +72,28 @@
 }
 
 .dropdown-menu {
+    display: block;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
     background-color: #212429;
     margin-top: 15%;
+}
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+}
+
+.form-control:active {
+    border-bottom: 1px solid #212429;
+}
+
+.dropdown-color {
+    background-color: transparent;
+    border: none;
 }
 
 .dropdown-toggle{
@@ -48,7 +110,13 @@
 
 @media (max-width: 991px) {
     .dropdown-menu {
-      margin-top: 0.3%;
+        display: none;
+        margin-top: 0.3%;
+    }
+
+    .nav-item:hover .nav-link {
+        transform: scaleZ(1.05);
+        transition: all 0.3s ease-in-out;
     }
 }
 
@@ -102,6 +170,7 @@ scrollbar-width: none;  /* Firefox */
     transform: scale(1.1);
     background: #212429;
     color: #fff;
+    filter: drop-shadow(0px 0px 33px rgba(255, 255, 255, 0.7));
 }
 
 .arrow {
@@ -115,8 +184,19 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .bg2 {
-    display: none;
     background-color: #212429;
+}
+
+.bg-contact{
+    background-color: #454a52;
+    border-radius: 30px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 94vh;
+}
+
+#president, #university {
+    transition: color 2.5s;
 }
 
 .is {
