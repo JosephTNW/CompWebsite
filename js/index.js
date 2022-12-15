@@ -17,6 +17,7 @@ $(document).ready(function(){
 })
 
 var nav = document.querySelector('nav');
+var footer = document.querySelector('footer')
 var dropdownMenu = document.querySelector('.dropdown-menu');
 window.addEventListener('scroll', function(){
     if(this.window.pageYOffset > 100) {
@@ -26,4 +27,11 @@ window.addEventListener('scroll', function(){
         nav.classList.remove('bg-nav', 'shadow');
         dropdownMenu.classList.add('dropdown-color');
     }
+    if (window.pageYOffset > 50) {
+        // Add the "show" class to the footer element, which will make it visible
+        footer.classList.add('show');
+      } else {
+        // Remove the "show" class from the footer element, which will hide it
+        footer.classList.remove('show');
+      }
 });

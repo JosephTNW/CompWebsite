@@ -148,6 +148,10 @@ body {
 scrollbar-width: none;  /* Firefox */
 }
 
+.icon {
+    text-decoration: none;
+}
+
 .btn-change{
     background: #fff;
     float: left;
@@ -164,10 +168,38 @@ scrollbar-width: none;  /* Firefox */
     filter: drop-shadow(0px 0px 33px rgba(255, 255, 255, 0.7));
 }
 
-.btn-send {
-    background-color: lightgreen;
+.btn-change7{
+    background: white;
+    margin: 20px;
+    float: left;
     border: 0px;
-    color: #212429;
+    color:#212429;
+    box-shadow: 0 0 1px #ccc;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    box-shadow:0px 0 0 lightgreen  inset;
+}
+.btn-change7:hover{
+    background: white;
+    color:#212429;
+    box-shadow:200px 0 0 lightgreen inset;
+}
+
+.btn-change8{
+    background: white;
+    margin: 20px;
+    float: left;
+    border: 0px;
+    color:#212429;
+    box-shadow: 0 0 1px #ccc;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    box-shadow:0px 0 0 lightcoral  inset;
+}
+.btn-change8:hover{
+    background: white;
+    color:#212429;
+    box-shadow:200px 0 0 lightcoral inset;
 }
 
 .arrow {
