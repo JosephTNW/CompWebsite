@@ -15,19 +15,19 @@
 </head>
 
 <body class="bg2">
-  <div class="container bg-contact">
+  <div class="container bg-contact shadow-white">
     <div class="row">
     <button type="button" class="btn-close btn-close-white mt-3 ms-3" aria-label="Close" onclick="goBack()"></button>
 
     <div class="col text-white mt-5">
 
       <img class="alumni center" id="changing-image" src="/assets/alumni1.png" alt="Student Photo" />
-      <h5 class="fw-light fst-italic text-center mb-5 adv" id="change-text">Felicia Putri Tjiasaka, Co-founder at Ternak Uang</h5>
-      <h3 class="fw-400 text-center mb-5">Don't miss out on the chance to be a part of something special.</h3>
+      <h5 class="fw-light fst-italic text-center mb-3 adv" id="change-text">Felicia Putri Tjiasaka, Co-founder at Ternak Uang</h5>
+      <h3 class="fw-400 text-center mb-3">Don't miss out on the chance to be a part of something special.</h3>
       <h1 class="fst-bold text-center">Join <span id="president">President</span> <span id="university">University</span> today!</h1>
     </div>
 
-    <div class="col width">
+    <div class="col width my-auto">
       <div class="container mt-5 text-white">
         <form>
           <!-- 2 column grid layout with text inputs for the first and last names -->
@@ -61,7 +61,7 @@
           <!-- Message input -->
           <div class="form-outline mb-4">
             <textarea class="form-control" id="form6Example7" rows="4"></textarea>
-            <label class="form-label" for="form6Example7">Additional information</label>
+            <label class="form-label" for="form6Example7">Message</label>
           </div>
 
           <!-- Checkbox -->
@@ -71,7 +71,10 @@
           </div>
 
           <!-- Submit button -->
-          <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          <div class="d-flex justify-content-center gap-4">
+            <button type="submit" class="btn btn-primary btn-block btn-send px-5 fs-5">SEND</button>
+            <button type="reset" class="btn btn-primary btn-block btn-change px-5 fs-5">RESET</button>
+          </div>
         </form>
       </div>
     </div>
