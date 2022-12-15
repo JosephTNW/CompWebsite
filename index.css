@@ -308,3 +308,7 @@ table, th {
     height: 530px;
     margin: 30px;
 }
+
+h1, h3, h5, p, li, a, label, legend {
+    font-family: times_new_roman;
+}
