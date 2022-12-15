@@ -359,6 +359,6 @@ table, th {
     margin: 30px;
 }
 
-h1, h3, h5, p, li, a, label, legend {
+h1, h3, h5, p, li, a, label, legend, td, th {
     font-family: times_new_roman;
 }
